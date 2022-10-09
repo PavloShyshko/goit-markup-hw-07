@@ -155,63 +155,38 @@ img {
   border-radius: 2px;
 }
 
+/*contact-list block*/
 
 .contact-list {
   display: flex;
   margin-left: auto;
 }
 
-.contact-list .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--primary-text-color);
-}
-
-.contact-list .link:hover,
-.contact-list .link:focus {
-  color: var(--accent-color);
-}
-
-.contact-item + .contact-item {
+.contact-list__item + .contact-list__item {
   margin-left: 50px;
 }
 
-
-.link {
+.contact-list__link{
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
+  letter-spacing: 0.02em; 
 }
 
-.mail-icon {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.phone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-
-
-
-.link:hover,
-.link:focus {
+.contact-list__link:hover,
+.contact-list__link:focus {
   color: var(--accent-color);
 }
 
-.contact-item:hover {
-  color: var(--accent-color);
+.contact-list__icon { 
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*hero section*/
