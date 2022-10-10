@@ -218,7 +218,6 @@ img {
   text-align: center;
   background-color: var(--secondary-background-color);
 }
-
 .hero-title {
   margin-bottom: 30px;
   width: 696px;
@@ -231,7 +230,6 @@ img {
   text-transform: uppercase;
   color: var(--primary-background-color);
 }
-
 .hero-btn {
   display: inline-block;
   padding: 10px 32px;
@@ -252,18 +250,15 @@ img {
 .advantages {
   padding-bottom: 0;
 }
-
 .advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-
 .advantages__item {
   width: 270px;
 }
-
 .advantages__wrap {
   background-color: var(--section-background-color);
   width: 270px;
@@ -279,12 +274,10 @@ img {
           justify-content: center;
   margin-bottom: 30px;
 }
-
 .advantages__icon {
   width: 70px;
   height: 70px;
 }
-
 .advantages__title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -294,8 +287,7 @@ img {
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
-
-.avdantages__text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -883,14 +875,12 @@ img {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
 }
-
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden.modal {
   -webkit-transform: translate(-50%, -50%) scale(0.1);
           transform: translate(-50%, -50%) scale(0.1);
 }
